@@ -1,0 +1,64 @@
+# File Types known to be unecessary
+*.swp
+*.bin
+*.checkpoint
+*ShaderCache*
+*PCTOC*
+*.log
+*.obj
+*IphoneTOC*
+*.dmp
+*.u
+ 
+# Exclude parts of the directory hierarchy that contain foundation/shared item
+# Please keep an eye out if you find yourself changing these items
+MomChaos/Binaries/
+ 
+MomChaos/Development/Flash/AS2/CLIK/
+MomChaos/Development/Flash/AS3/CLIK/
+ 
+MomChaos/Development/Intermediate/
+ 
+MomChaos/Development/Src/Core
+MomChaos/Development/Src/Engine
+MomChaos/Development/Src/ExoEditor
+MomChaos/Development/Src/GFxUI
+MomChaos/Development/Src/GFxUIEditor
+MomChaos/Development/Src/GameFramework
+MomChaos/Development/Src/IpDrv
+MomChaos/Development/Src/MyMod
+MomChaos/Development/Src/OnlineSubsystemGameCenter
+MomChaos/Development/Src/OnlineSubsystemPC
+MomChaos/Development/Src/OnlineSubsystemSteamworks
+MomChaos/Development/Src/SubstanceAir
+MomChaos/Development/Src/SubstanceAirEd
+MomChaos/Development/Src/SwordEditor
+MomChaos/Development/Src/UDKBase
+MomChaos/Development/Src/UnrealEd
+MomChaos/Development/Src/UTEditor
+MomChaos/Development/Src/UTGame
+MomChaos/Development/Src/UTGameContent
+MomChaos/Development/Src/WinDrv
+ 
+MomChaos/Engine/
+ 
+# Note that this assumes you are creating a new folder for holding your content
+# and you do NOT want to store the existing demo content
+# If you uncomment one of these, your repo might get very large
+MomChaos/UDKGame/Content/Maps/
+MomChaos/UDKGame/Content/Mobile/
+MomChaos/UDKGame/Content/Shared/
+MomChaos/UDKGame/Content/Showcases/
+MomChaos/UDKGame/Content/TestPackages/
+MomChaos/UDKGame/Content/UT3/
+ 
+MomChaos/UDKGame/Autosaves/
+MomChaos/UDKGame/Build/
+MomChaos/UDKGame/CookedIPhone/
+MomChaos/UDKGame/CookedPC/
+MomChaos/UDKGame/Localization/
+MomChaos/UDKGame/Movies/
+MomChaos/UDKGame/ProjectTemplates/
+MomChaos/UDKGame/PTOC*
+MomChaos/UDKGame/Script/
+MomChaos/UDKGame/Unpublished/
