@@ -12,8 +12,8 @@ Begin:
 defaultproperties
 {
 	HUDType=class'GameFramework.MobileHUD'
-	PlayerControllerClass=class'ChaosGame.ChaosPlayerController'
-	DefaultPawnClass=class'ChaosGame.ChaosPawn'
+	PlayerControllerClass=class'ChaosGame.ThrudController'
+	DefaultPawnClass=class'ChaosGame.ThrudPawn'
 	bDelayedStart=false
 }
 

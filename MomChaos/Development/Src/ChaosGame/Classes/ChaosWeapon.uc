@@ -1,7 +1,7 @@
 //-----------------------------------------------------------
 //
 //-----------------------------------------------------------
-class ChaosPawn extends Pawn;
+class ChaosWeapon extends ChaosActor;
 
 DefaultProperties
 {
